@@ -1,0 +1,14 @@
+# On Atom for Windows, Emacs-like key-bindings are not available at default.
+# These keymaps below enables "minimum" Emacs-like key-bindings.
+'atom-workspace atom-text-editor':
+  'ctrl-p': 'core:move-up'
+  'ctrl-n': 'core:move-down'
+  'ctrl-b': 'core:move-left'
+  'ctrl-f': 'core:move-right'
+  'ctrl-e': 'editor:move-to-end-of-line'
+  'ctrl-a': 'editor:move-to-beginning-of-line'
+  'ctrl-d': 'core:delete'
+  'ctrl-h': 'core:backspace'
+  'alt-f': 'find-and-replace:show'
+  'alt->': 'core:move-to-bottom'
+  'alt-<': 'core:move-to-top'
