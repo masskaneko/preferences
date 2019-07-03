@@ -1,0 +1,77 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "alt+f",
+		"command": "actions.find"
+	},
+	{
+		"key": "ctrl+f",
+		"command": "-actions.find"
+	},
+	{
+		"key": "ctrl+shift+n",
+		"command": "-workbench.action.newWindow"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "cursorDown",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+n",
+		"command": "workbench.action.files.newUntitledFile"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "cursorLeft",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+f",
+		"command": "cursorRight",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "cursorUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "cursorEnd",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+a",
+		"command": "cursorHome",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+a",
+		"command": "editor.action.selectAll",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+a",
+		"command": "-editor.action.selectAll",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+d",
+		"command": "deleteRight",
+		"when": "textInputFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+r",
+		"command": "-workbench.action.openRecent"
+	},
+	{
+		"key": "ctrl+r",
+		"command": "editor.action.startFindReplaceAction"
+	},
+	{
+		"key": "ctrl+h",
+		"command": "deleteLeft",
+		"when": "textInputFocus && !editorReadonly"
+	}
+]
