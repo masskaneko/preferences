@@ -73,5 +73,9 @@
 		"key": "ctrl+h",
 		"command": "deleteLeft",
 		"when": "textInputFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+oem_1",
+		"command": "workbench.action.terminal.focus"
 	}
 ]
